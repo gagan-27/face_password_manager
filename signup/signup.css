@@ -1,0 +1,70 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/flat-design-minimalist-background_23-2149987682.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.bcontainer {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(230, 170, 101);
+  border-radius: 8px;
+}
+
+.inputf {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 20px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(182, 113, 247);
+  cursor: pointer;
+  color: white;
+  padding: 7px;
+  border: none;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(128, 38, 255);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.imgcontainer {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+img.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}

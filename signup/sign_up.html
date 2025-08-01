@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css" />
+  <script src="signup.js" defer></script>
+</head>
+<body>
+  <div class="bcontainer">
+    <h1>SIGN UP</h1>
+    <div class="imgcontainer">
+      <img src="avt.jpg" alt="Avatar" class="avatar" />
+    </div>
+    <form name="frm" onsubmit="return valform(event)">
+      <div class="inputf">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Name" id="name" name="name" required />
+      </div>
+      <div class="inputf">
+        <label>E-mail address:</label>
+        <input type="email" placeholder="Enter E-mail address" id="email" name="email" required />
+      </div>
+      <div class="inputf">
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password" id="pass" name="pass" required />
+      </div>
+      <div class="inputf">
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Enter Password" id="cpass" name="cpass" required />
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
